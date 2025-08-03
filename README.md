@@ -1,9 +1,9 @@
-📱 Quiz App
+# Quiz App
 
 A mobile quiz application designed to help users learn and test their knowledge in different programming languages including C, C++, Python, HTML, Kotlin, and C#. The app provides an interactive experience where users can select a topic, answer multiple-choice questions, and receive instant feedback with a final score.
 
 
-🚀 Features
+# Features
 
 1. Quiz by Language: Choose from multiple programming languages.
 
@@ -17,7 +17,7 @@ A mobile quiz application designed to help users learn and test their knowledge 
 
 
 
-🛠️ Tech Stack
+ # Tech Stack
 
   Platform: Android
 
@@ -30,7 +30,7 @@ A mobile quiz application designed to help users learn and test their knowledge 
   Icons & Graphics: Vector assets and drawable resources
 
 
-✅ How to Use
+# How to Use
 
 1. Clone the repo
 
