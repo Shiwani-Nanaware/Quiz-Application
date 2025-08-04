@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/back"
+    tools:context=".questionActivity">
+
+    <TextView
+        android:id="@+id/DispName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DispName"
+        android:layout_alignRight="@+id/DispName"
+        android:id="@+id/answergroup"
+        android:layout_alignParentStart="true"
+
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/radiobutton"
+            android:checked="false"
+            android:textColor="#FFF"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="B"
+        android:id="@+id/radiobutton2"
+        android:checked="false"
+        android:textColor="#FFF"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="C"
+        android:id="@+id/radiobutton3"
+        android:checked="false"
+        android:textColor="#FFF"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="D"
+        android:id="@+id/radiobutton4"
+        android:checked="false"
+        android:textColor="#FFF"/>
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answergroup"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="27dp"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:background="@drawable/optiondesign"/>
+    <Button
+        android:id="@+id/buttonquit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:text="Quit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/optiondesign"
+        />
+        <TextView
+            android:id="@+id/tvque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/answergroup"
+
+            android:text="Question"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="52dp"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Your Score"
+        android:textColor="#FFF"
+        />
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
